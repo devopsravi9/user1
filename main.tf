@@ -11,7 +11,7 @@ terraform {
 }
 
 module "ami" {
-  source = "https://github.com/devopsravi9/module-immutable-app-ami.git"
+  source = "github.com/devopsravi9/module-immutable-app-ami"
   COMPONENT = "user"
   APP_VERSION = var.APP_VERSION
 }
